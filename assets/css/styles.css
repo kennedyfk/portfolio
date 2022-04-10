@@ -326,6 +326,16 @@ img {
   color: var(--first-color-alt);
 }
 
+.home__social-svg {
+  stroke: 50;
+  fill: var(--first-color);
+}
+
+.home__social-svg:hover {
+  font-size: 1rem;
+  fill: var(--first-color-alt);
+}
+
 .home__blob {
   width: 200px;
   fill: var(--first-color);
@@ -436,7 +446,6 @@ img {
 /*==================== ABOUT ====================*/
 .about__data {
   text-align: center;
-
 }
 
 .about__img {
@@ -456,10 +465,13 @@ img {
   color: #E31E3C;
 }
 
+.about__info_box {
+  margin: 0 15px;
+}
+
 .about__info {
   display: flex;
   justify-content: center;
-  width: 360px;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -971,7 +983,7 @@ img {
 
 /*==================== rodape ====================*/
 .rodape {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .footer__container {
@@ -980,7 +992,7 @@ img {
 
 .footer__bg {
   background-color: var(--first-color-second);
-  padding: 2rem 0 3rem;
+  padding: 2rem 0;
 }
 
 .footer__title {
@@ -1017,16 +1029,18 @@ span .footer__subtitle {
 
 .rodape-frase {
   font-size: var(--small-font-size);
+
   text-align: center;
+
   color: var(--container-color);
-  margin-top: var(--mb-1);
+  margin-top: var(--mb-0-5);
   font-style: italic;
 }
 
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
-  color: var(--text-color-light);
+  color: var(--container-color);
   margin-top: var(--mb-0-75);
 }
 
@@ -1281,10 +1295,6 @@ span .footer__subtitle {
     text-align: initial;
   }
 
-  .about__info {
-    justify-content: initial;
-  }
-
   .qualification__tabs {
     justify-content: center;
   }
@@ -1360,7 +1370,7 @@ span .footer__subtitle {
   }
 
   .footer__copy {
-    margin-top: 4.5rem;
+    margin-top: 2.5rem;
   }
 }
 
