@@ -327,8 +327,10 @@ img {
 }
 
 .home__social-svg {
-  stroke: 50;
+  width: 25px;
+  height: 25px;
   fill: var(--first-color);
+
 }
 
 .home__social-svg:hover {
